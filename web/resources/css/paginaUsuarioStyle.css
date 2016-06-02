@@ -1,0 +1,218 @@
+ 
+html, body,* {
+                margin: 0 auto;
+                padding: 0;
+                font-size: 14px;
+                font-family: 'Open Sans 700','Helvetica Neue',Arial,sans-serif;
+                box-sizing: border-box;
+            }
+            
+            
+            .ui-menubar, .ui-menu-child, .ui-menu {
+                text-transform: uppercase;
+                background-color: transparent;
+                font-family: 'Open Sans 700','Helvetica Neue',Arial,sans-serif;
+            }
+            
+           
+            #logo{
+                text-transform: uppercase;
+                
+            }
+           
+            header {
+                /*background-image: url();*/
+                background-position: center;
+                background-color: grey;
+            }
+
+            nav {
+                font-family: 'Open Sans 700','Helvetica Neue',Arial,sans-serif;
+                font-weight: bold;
+                background-color: #333333;
+            }
+
+            nav div ul li a {
+                color: white;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+            
+            .viaje {
+                border: none;
+            }
+            
+            
+            .cardsContainer {
+                height: 35em;
+                width: 60em;
+                margin: 0 auto;
+                border: none;
+                text-align: center;
+            }
+            
+            .card {
+                background-color: #F05F40;
+                color: #fff;
+                font-family: 'Open Sans 700','Helvetica Neue',Arial,sans-serif;
+                font-size: 1.4em;
+                width: 90%;
+                margin: 0 auto;
+                margin-bottom: 10px;
+                border: 4px solid #666666;
+                text-decoration: none;
+                box-shadow: 0;
+                transition: box-shadow .5s;
+            }
+           
+
+            .card:hover {
+                -webkit-box-shadow: 10px 7px 34px 6px rgba(0,0,0,0.42);
+                -moz-box-shadow: 10px 7px 34px 6px rgba(0,0,0,0.42);
+                box-shadow: 10px 7px 34px 6px rgba(0,0,0,0.42);
+                cursor: pointer;
+            }
+            
+            
+           
+            
+            .center-rating {
+                width: 96px;
+                margin: 0 auto;
+            }
+            
+            .container {
+                width: 85%;
+                margin-top: 15px;
+                padding: 5px;
+                border: 3px solid black;
+               
+                background: #F05F40;
+                color: white;
+                transition: box-shadow 0.3s ease-in-out;
+            }
+            
+            .container:hover {
+                -webkit-box-shadow: 10px 10px 42px -1px rgba(0,0,0,0.66);
+                -moz-box-shadow: 10px 10px 42px -1px rgba(0,0,0,0.66);
+                box-shadow: 10px 10px 42px -1px rgba(0,0,0,0.66);
+                transition: box-shadow 0.3s ease-in-out;
+            }
+            .container h3 {
+                font-weight: bold;
+            }
+            
+             .col1 {
+                margin: 0;
+                padding: 0;
+                width: 20%;
+                float: left;
+                text-align: center;
+               
+            }
+            
+            .col2 {
+                margin-top: 10px;
+                padding: 5px;
+                width: 35%;
+                float: left;
+                
+            }
+            
+            .col3 {
+               
+                margin-top: 20px;
+                padding: 0;
+                width: 25%;
+                float: left;
+                font-size: 1.3em;
+                font-weight: bold;
+                
+            }
+            
+            .col4 {
+                margin-top: 40px;
+                padding: 0;
+                width: 20%;
+                height: auto;
+                vertical-align: middle;
+                float: right;
+                text-align: center;
+
+            }
+            
+            header {
+                background-image: none;
+                background-color: #fff;
+                color: black;
+            }
+            
+            .dialogoViaje {
+                text-align: center;
+            }
+            .dialogo .boton {
+               text-align: center;
+               padding: 10px;
+            }
+           
+            #viajeProximo {
+                /*background-color: #F05F40;*/
+                border: 2px solid black;
+                width: 100%;
+                height: 2.5em;
+                display: none;
+                color: black;
+                font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+                
+            }
+            
+            #viajeProximo a {
+                text-decoration: underline #0000EE;
+                color: #0000EE;
+            }
+            
+            
+            .foto-perfil {
+               
+            }
+            
+            .map-canvas {
+                height:170px; 
+                width:240px
+            }
+            header {
+               
+            }
+            .container:hover {
+                cursor: pointer;
+            }
+            
+            .container .cancelarViaje {
+                background: white;
+                color: #F05F40;
+                font-weight: bold;
+                font-size: 20px;
+            }
+            
+            .calificar {
+                text-align: center;
+            }
+            @keyframes blink {  
+                0% { background: white;  color: #F05F40; }
+                100% {  background: black; }
+            }
+            @-webkit-keyframes blink {
+                0% { background: white; color: #F05F40;}
+                100% { background: black; }
+            }
+            
+            .blink {
+                -webkit-animation: blink 1s linear infinite;
+                -moz-animation: blink 1s linear infinite;
+                -ms-animation: blink 1s linear infinite;
+                -o-animation: blink 1s linear infinite;
+                animation: blink 1s linear infinite;
+            } 
+            
+            
+            
